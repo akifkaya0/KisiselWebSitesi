@@ -1,15 +1,81 @@
-.giris{
-    padding: 0;
-    margin: 0;
+body{
+    overflow-x: hidden;
+    font-family:'Roboto Condensed', sans-serif;
 }
+
+a{
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 20px; 
+    color: white;
+}
+
+a:hover{
+    color: rgb(194, 189, 189);
+}
+
+.kontey{
+    height: auto;
+}
+
+.anaBolum1{
+    background-color: #485b98;
+}
+
+.anaBolum2{
+    background-color: #4c9870;
+}
+
+.anaBolum2 a{
+    width: 35%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.anaBolum2 a img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.anaBolum3{
+    background-color: #485b98;
+}
+
 .baslik{
     font-size: 30px;
     color: rgb(255, 255, 255);
-    position: absolute;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
 }
 
-.formEleman input{
+.metin{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.girisYap .sol{
+    background-color: #263238;
+    text-align: center;
+}
+
+#girisYapBaslik{
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.girisYap .sag{
+    text-align: center;
+}
+
+.girisYap form p{
+    font-weight: 300;
+    margin-bottom: 2px;
+    text-align:left;
+}
+
+.girisYap .textBox input{
     width: 100%;
     height: 35px;
     margin-bottom: 15px;
@@ -17,16 +83,7 @@
     border-radius: 4px;
 }
 
-.formEleman p{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    color: rgb(255, 255, 255);
-    font-size: 15px;
-    margin-bottom: 2px;
-    text-align:left;
-}
-
-.buton input{
+.girisYap .buton input{
     background-color: #2d56b3;
     margin-top: 20px;
     width: 60%;
@@ -34,30 +91,6 @@
     min-width: 100px;
     font-size: 17px;
     color: white;
-    font-family: 'Open Sans', sans-serif;
-    border-radius: 8px;
+    border-radius: 4px;
 }
 
-.menu2 a{
-    width: 35%;
-    margin-right: 15px;
-    margin-bottom: 15px;
-    background-repeat: no-repeat;
-}
-
-ul{
-    list-style-type: none;
-}
-li{
-    float: left;
-    padding: 30px 50px;
-}
-
-li a{
-    text-decoration: none;
-    color: #05194c; 
-}
-
-li a:hover{
-    color: rgb(131, 126, 126);
-}
