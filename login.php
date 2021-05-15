@@ -11,60 +11,64 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
 
 </head>
-<body style="overflow-y: hidden;" >
+<body style="background-color: #485b98;">
 
-    <div class="container-fluid kontey girisYap" >
+    <div class="container-fluid kontey girisYap">
 
-        <div class="row" style="height: 700px;">
+        <div class="row">
 
-            <div class="col-sm-5 col-6 sol" >
+            <div class="col-md-5 col-sm-12 sol" style="height:auto; padding-bottom: 15%;">
 
-                <div style="width: 100%; height: 15%;">
+                <div style="width: 100%;">
+                    <div style="width: 100%; height: 15%; background-color: cadetblue;">
                     
-                    <a href="index.html"><img src="photo/ana_sayfa/anaSayfaSimge.png" style="float: left; margin: 2%; width: 6%; min-width: 40px;"></a>
+                        <a href="index.html"><img src="photo/ana_sayfa/anaSayfaSimge.png" style="float: left; margin: 2%; width: 6%; min-width: 40px;"></a>
+                            
+                    </div>
+
+                    <div style="clear: both;"></div>
+    
+                    <div style="margin-top: 5%;">
+    
+                        <p class="baslik" id="girisYapBaslik">GİRİŞ YAP</p>
+    
+                    </div>
                         
-                </div>
-
-                <div style="margin-top: 5%;">
-
-                    <p class="baslik" id="girisYapBaslik">GİRİŞ YAP</p>
-
-                </div>
-                    
-                <div style="min-width:100px; margin-top: 5%; margin-left: 30%; width: 40%;">
-                    <form action="loginKontrol.php" method="POST">
-                    
-                        <div>
-
-                            <div class="textBox">
-
-                                <p class="metin">Kullanıcı Adı :</p>
-                                <input type="text" name="kullaniciAdi" id="" required>
-
-                            </div>
-
-                            <div class="textBox">
-
-                                <p class="metin">Şifre : </p>
-                                <input type="password" name="sifre" id="" required>
-
-                            </div>
-
-                            <div class="buton" style="text-align: center;">
-
-                                <input type="submit" value="GİRİŞ YAP">
-
+                    <div style="min-width:100px; margin-top: 5%; margin-left: 30%; width: 40%;">
+                        <form action="loginKontrol.php" method="POST">
+                        
+                            <div>
+    
+                                <div class="textBox">
+    
+                                    <p class="metin">Kullanıcı Adı :</p>
+                                    <input type="text" name="kullaniciAdi" value="" id="" required>
+    
+                                </div>
+    
+                                <div class="textBox">
+    
+                                    <p class="metin">Şifre : </p>
+                                    <input type="password" name="sifre" id="" required>
+    
+                                </div>
+    
+                                <div class="buton" style="text-align: center;">
+    
+                                    <input type="submit" value="GİRİŞ YAP">
+    
+                                </div>
+                            
                             </div>
                         
-                        </div>
-                    
-                    </form>
-
+                        </form>
+    
+                    </div>
                 </div>
 
             </div>
 
-            <div class="col-sm-7 col-6 sag">
+            <div class="col-md-7 col-sm-12 sag">
 
                 <img src="photo/login.png" style="width: 86%;">
 
@@ -73,7 +77,6 @@
         </div>
 
     </div>
-
 
 </body>
 </html>

@@ -121,6 +121,7 @@ a:hover{
 .menu1{
     text-align:center;
     background-color: #c6d0d4;
+    padding: 5px;
 }
 
 #menu1Baslik{
@@ -156,5 +157,44 @@ a:hover{
 
 .menu2Foto img{
     width: 100%;
+}
+
+.sehrimMenu3{
+    height: auto;
+    background-color: #c6d0d4;
+}
+
+.sliderMetin{
+    position: absolute;
+    font-size: 3vw;
+    background-color: #263238;
+    opacity: 100%;
+    color: #ffffff;
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+    bottom: 15px;
+}
+
+figcaption{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.cv{
+    height: 90vh;
+    margin: 10%;
+    padding: 8% 8%;
+    background-color: #e4e5e7;
+}
+
+#divCv p{
+    float:left;
+    
+}
+
+#solCv{
+    width: 100px;
 }
 
