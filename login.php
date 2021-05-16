@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
 
 </head>
-<body style="background-color: #485b98;">
+<body>
 
     <div class="container-fluid kontey girisYap">
 
