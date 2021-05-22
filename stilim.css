@@ -61,7 +61,7 @@ a:hover{
 }
 
 .baslik{
-    font-size: 30px;
+    font-size: 40px;
     color: rgb(255, 255, 255);
     font-weight: 300;
     text-align: center;
@@ -203,5 +203,19 @@ figcaption{
     margin-bottom: 10px;
 }
 
+.hakkimdaMetin{
+   margin-left: 5%;
+   margin-right: 5%;
+}
 
+.hakkimdaSatir{
+    margin-top: 5%;
+}
 
+.hakkimdaSatir img{
+    width: 100%;
+}
+
+#ilgiAlanlarımLink{
+    font-size: 30px;
+}
