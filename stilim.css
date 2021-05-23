@@ -73,6 +73,19 @@ a:hover{
     font-weight: 400;
 }
 
+.film{
+    margin: 2%;
+    height:auto;
+    padding: 50px 20px;
+    background-color: #4b5162;
+    border-radius: 5px;
+}
+
+.filmFotolar{
+    min-width: 200px; 
+    float: left;
+}
+
 .loginMetin{
     font-size: 18px;
     color: rgb(255, 255, 255);
@@ -208,14 +221,9 @@ figcaption{
    margin-right: 5%;
 }
 
-.hakkimdaSatir{
-    margin-top: 5%;
-}
-
-.hakkimdaSatir img{
-    width: 100%;
-}
 
 #ilgiAlanlarımLink{
     font-size: 30px;
 }
+
+
